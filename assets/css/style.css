@@ -1,0 +1,57 @@
+
+.leva, .referencia
+{
+   font-weight: 800;
+}
+
+.valor, .validacao
+{
+   font-weight: 480;
+}
+.text-warning
+{
+   font-weight: 450;
+}
+
+#valor1, .total
+{
+   font-weight: 4500;
+}
+
+.text-dark
+{
+   font-weight: 450;
+}
+
+.imagem
+{
+   margin-left: 23%;
+   opacity: 0.8;
+}
+
+body
+{
+   background-color: ghostwhite;
+   font-size: small;
+}
+
+button:active
+{
+   background-color: red;
+   color: darkorange;
+}
+
+#imagemLogo
+{
+   margin-left: 15%;
+}
+
+.Isento, #valor1{
+  margin-left: 55%;
+}
+
+#back
+{
+   margin-top: 10px;
+   position: relative;
+}

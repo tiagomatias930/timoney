@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/res/bootstrap@5.2.0.min.css">
+    <title>Acesso Emis</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -100;
+            overflow: hidden;
+        }
+
+        video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin-top: 50vh;
+            transform: translateY(-50%);
+        }
+
+        form {
+            margin-left: 4%;
+            max-width: 90%;
+        }
+
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="container sm-6 mt-5">
+
+    <div class="video-background">
+        <video playsinline autoplay muted loop>
+            <source src="/assets/video/binario.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+        </video>
+    </div>
+    
+    <div class="content">
+        <div class="row mt-5">
+            <div class="col col-12">
+                <form>
+                    <label for="pin">
+                        <p><input type="password" name="Pin" id="pin" placeholder="Digite o Código de Acesso"
+                                class="form-control"></p>
+                    </label>
+                    <input type="submit" value="Entrar" class="btn btn-outline-info p-1">
+                </form>
+            </div>
+        </div>
+    </div>
+
+  <div class="audio">
+    <audio src="/assets/res/rt-1l0la173lkazu7zu.mp3">
+    </audio>
+    <audio src="#" id="audioSe">#</audio>
+    </div>
+  
+    <script src="/assets/js/acesso.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
