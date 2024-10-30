@@ -35,7 +35,7 @@ function geradorNumero(limite) {
               {
                 number = Math.ceil(Math.random() * 9999);
               }
-               referencia[3] = number;
+               referencia[3] = number1;
             }
          }
          console.log("Referencia" + referencia);
